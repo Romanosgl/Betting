@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Betting Model</title>
+    <style>
+        .flex-container {
+          display: flex;
+          justify-content: center;
+        }
+        hr { 
+            display: block;
+            margin-top: 0.5em;
+            margin-bottom: 0.5em;
+            margin-left: auto;
+            margin-right: auto;
+            border-style: inset;
+            border-width: 1px;
+          }
+          a:link { 
+            text-decoration: none; 
+          } 
+          a:visited { 
+            text-decoration: none; 
+          }
+          ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+          }
+          
+          li {
+            float: left;
+            border-right:1px solid #bbb;
+          }
+          
+          li:last-child {
+            border-right: none;
+          }
+          
+          li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+          }
+          
+          li a:hover:not(.active) {
+            background-color: #111;
+          }
+          
+          .active {
+            background-color: #04AA6D;
+          }  
+        </style>
+</head>
+<body>
+    <div class="flex-container"><h1>Github Project Website</h1></div>
+    <ul>
+        <li><a href="https://github.com/Romanosgl">Github Profile</a></li>
+        <li><a href="#main github website">Personal Page</a></li>
+        <li><a href="#development">Development</a></li>
+        <!--<li style="float:right"><a href="#about">About</a>--></li>
+    </ul>
+    <div style="font-size:28px;">Website developed by <a href="https://github.com/Romanosgl" target="_blank">Romanosgl</a> for a current Github project.
+    The project aims to create an AI pable to predict results of a football match at a favorable accuracy.<br>We utilize a RandomForestClassifier an excel based dataset</div>
+    
+    <div id="development"style="font-size:28px;"><h2>Development</h2>
+    As of 1/7/2024 the dataset consists of 13 games and the RandomForestClassifier utilizes normal form and h2h form, goal difference alongside odds provided by bookies</div>
+
+
+</body>
+</html>
+
